@@ -15,12 +15,12 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         },
         createdAt: {
-            fields: 'created_at',
+            field: 'created_at',
             type: DataTypes.DATE,
             allowNull: false
         },
         updatedAt: {
-            fields: 'udpdated_at',
+            field: 'updated_at',
             type: DataTypes.DATE,
             allowNull: false
         }
